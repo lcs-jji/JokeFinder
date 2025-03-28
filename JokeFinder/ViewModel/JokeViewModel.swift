@@ -17,7 +17,7 @@ class JokeViewModel {
     var currentJoke: Joke?
     
     // MARK: Initializer(s)
-    init(currentJoke: Joke? = nil) {
+    init(currentJoke: Joke? =  nil) {
         
         // Take whatever joke was provided when an instance of
         // this view model is created, and make it the current joke.
