@@ -15,6 +15,7 @@
 		58718DA02D96FBBD00AACEA2 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58718D9F2D96FBB900AACEA2 /* JokeView.swift */; };
 		58F3E7EF2D9EBC1F00E4945C /* FavouriteJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F3E7EE2D9EBC1700E4945C /* FavouriteJokeView.swift */; };
 		58F3E7F12D9EBC3200E4945C /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F3E7F02D9EBC3000E4945C /* LandingView.swift */; };
+		58F3E7F52D9EC3C200E4945C /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F3E7F42D9EC3C000E4945C /* SharedFunctionsAndConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		58718D9F2D96FBB900AACEA2 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		58F3E7EE2D9EBC1700E4945C /* FavouriteJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteJokeView.swift; sourceTree = "<group>"; };
 		58F3E7F02D9EBC3000E4945C /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		58F3E7F42D9EC3C000E4945C /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		58718D962D96FA4D00AACEA2 /* JokeFinder */ = {
 			isa = PBXGroup;
 			children = (
+				58F3E7F32D9EC3AF00E4945C /* SharedFunctionsAndConstants */,
 				58718D8E2D96FA4D00AACEA2 /* Model */,
 				58718D912D96FA4D00AACEA2 /* View */,
 				58718D922D96FA4D00AACEA2 /* ViewModel */,
@@ -101,6 +104,14 @@
 				58718D932D96FA4D00AACEA2 /* Assets.xcassets */,
 			);
 			path = JokeFinder;
+			sourceTree = "<group>";
+		};
+		58F3E7F32D9EC3AF00E4945C /* SharedFunctionsAndConstants */ = {
+			isa = PBXGroup;
+			children = (
+				58F3E7F42D9EC3C000E4945C /* SharedFunctionsAndConstants.swift */,
+			);
+			path = SharedFunctionsAndConstants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				58F3E7F12D9EBC3200E4945C /* LandingView.swift in Sources */,
 				58718DA02D96FBBD00AACEA2 /* JokeView.swift in Sources */,
 				58718D992D96FA4D00AACEA2 /* JokeFinderApp.swift in Sources */,
+				58F3E7F52D9EC3C200E4945C /* SharedFunctionsAndConstants.swift in Sources */,
 				58F3E7EF2D9EBC1F00E4945C /* FavouriteJokeView.swift in Sources */,
 				58718D9C2D96FAE200AACEA2 /* Joke.swift in Sources */,
 				58718D9E2D96FB5E00AACEA2 /* JokeViewModel.swift in Sources */,
